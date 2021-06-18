@@ -1,6 +1,6 @@
 (** A string representation for a user, typically a UNIX username. *)
 
-open! Core_kernel
+open! Core
 
 include String_id.S
 
