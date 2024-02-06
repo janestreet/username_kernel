@@ -1,2 +1,6 @@
-(library (name username_kernel) (public_name username_kernel)
- (libraries core) (preprocess (pps ppx_jane)))
+(library
+ (name username_kernel)
+ (public_name username_kernel)
+ (libraries core)
+ (preprocess
+  (pps ppx_jane)))
